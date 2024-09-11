@@ -1,2 +1,22 @@
 ---
 _entity: "github.com/AmadlaOrg/Entity@latest"
+name: QAFixturesSubEntityWithMultiSubEntitiesSubTwo
+description: QA Fixtures Sub Entity With Multi-Sub Entities (Sub Two)
+category: QA
+_self:
+  _entity: "github.com/AmadlaOrg/QAFixturesSubEntityWithMultiSubEntities/SubTwo@latest"
+  subject: Some random subject.
+  listing:
+    - Apple
+    - Orange
+    - Grape
+  external:
+    _entity: "github.com/AmadlaOrg/QAFixturesSubEntityWithMultiSubEntities@latest"
+    message: Some message...
+  external-list:
+    - _entity: "github.com/AmadlaOrg/QAFixturesSubEntityWithMultiSubEntities@latest"
+      message: Another random message.
+    - _entity: "github.com/AmadlaOrg/QAFixturesSubEntityWithMultiSubEntities@latest"
+      message: Again, another random message.
+    - _entity: "github.com/AmadlaOrg/QAFixturesEntityMultipleTagVersion@latest"
+      title: Hello World!

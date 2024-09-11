@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "id": "https://raw.githubusercontent.com/AmadlaOrg/QAFixturesSubEntityWithMultiSubEntities/master/.amadla/schema.json",
+  "title": "Amadla Entity Multiple Tag Version Configuration",
+  "description": "Defines a demo configuration file.",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Define a name."
+    },
+    "description": {
+      "type": "string",
+      "description": "Define a description."
+    }
+  }
+}
