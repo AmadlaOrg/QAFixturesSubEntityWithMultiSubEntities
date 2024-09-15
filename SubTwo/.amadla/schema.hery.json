@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "id": "urn:hery:amadla:QAFixturesSubEntityWithMultiSubEntities:SubTwo:latest",
+  "title": "Amadla Entity Multiple Tag Version Configuration",
+  "description": "Defines a demo configuration file.",
+  "type": "object",
+  "properties": {
+    "subject": {
+      "type": "string",
+      "description": "Subject."
+    },
+    "listing": {
+      "type": "list",
+      "description": "Simple list."
+    },
+    "external": {
+      "type": "object",
+      "description": "Is for including a entity."
+    },
+
+  }
+}

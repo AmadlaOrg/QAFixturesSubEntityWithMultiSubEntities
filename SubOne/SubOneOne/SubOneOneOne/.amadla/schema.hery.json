@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "id": "urn:hery:amadla:AmadlaOrg:QAFixturesSubEntityWithMultiSubEntities:SubOne:SubOneOne:SubOneOneOne:latest",
+  "title": "HERY - QA - Fixtures - Entity - multi-sub entities - SubOneOneOne.",
+  "description": "Defines QA fixtures.",
+  "type": "object",
+  "properties": {
+    "category": {
+      "type": "string",
+      "description": "Name of category."
+    }
+  },
+  "required": [
+    "category"
+  ]
+}
