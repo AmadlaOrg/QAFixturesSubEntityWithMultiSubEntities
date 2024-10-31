@@ -1,6 +1,9 @@
 ---
-_entity: "github.com/AmadlaOrg/Entity@latest"
-name: SubOneOneOne
-_self:
+_meta:
+  _entity: "github.com/AmadlaOrg/Entity@latest"
+  _body:
+    name: SubOneOneOne
+_body:
   _entity: "github.com/AmadlaOrg/QAFixturesSubEntityWithMultiSubEntities/SubOne/SubOneOne/SubOneOneOne@latest"
-  category: QA
+  _body:
+    category: QA
