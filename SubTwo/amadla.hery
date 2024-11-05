@@ -25,3 +25,6 @@ _body:
     - _entity: github.com/AmadlaOrg/QAFixturesEntityMultipleTagVersion@latest
       _body:
         title: Hello World!
+    - _entity: github.com/AmadlaOrg/QAFixturesEntityPseudoVersion@latest
+      _body:
+        name: John Doe

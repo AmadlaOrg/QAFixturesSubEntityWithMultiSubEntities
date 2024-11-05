@@ -8,6 +8,10 @@
     "section-name": {
       "type": "string",
       "description": "Name of section."
+    },
+    "section": {
+      "type": "object",
+      "description": ""
     }
   },
   "required": [

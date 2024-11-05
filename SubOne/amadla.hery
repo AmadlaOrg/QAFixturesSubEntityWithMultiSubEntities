@@ -4,6 +4,8 @@ _meta:
   _body:
     name: SubOne
 _body:
-  _entity: "github.com/AmadlaOrg/QAFixturesSubEntityWithMultiSubEntities/SubOne@latest"
-  _body:
-    component-name: Component Name
+  component-name: Component Name
+  component:
+    _entity: github.com/AmadlaOrg/QAFixturesFinalSubEntity@latest
+    _body:
+      message: A message for the component.

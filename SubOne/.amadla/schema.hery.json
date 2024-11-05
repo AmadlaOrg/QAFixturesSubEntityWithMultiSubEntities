@@ -8,6 +8,10 @@
     "component-name": {
       "type": "string",
       "description": "Name of component."
+    },
+    "component": {
+      "type": "object",
+      "description": "Contains a an external entity."
     }
   },
   "required": [

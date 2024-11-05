@@ -4,6 +4,4 @@ _meta:
   _body:
     name: SubOneOneOne
 _body:
-  _entity: "github.com/AmadlaOrg/QAFixturesSubEntityWithMultiSubEntities/SubOne/SubOneOne/SubOneOneOne@latest"
-  _body:
-    category: QA
+  category: QA

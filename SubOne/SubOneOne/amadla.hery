@@ -4,6 +4,8 @@ _meta:
   _body:
     name: SubOneOne
 _body:
-  _entity: "github.com/AmadlaOrg/QAFixturesSubEntityWithMultiSubEntities/SubOne/SubOneOne@latest"
-  _body:
-    section-name: SectionName
+  section-name: SectionName
+  section:
+    _entity: github.com/AmadlaOrg/QAFixturesFinalSubEntityTwo@latest
+    _body:
+      little-message: A message for the section.
